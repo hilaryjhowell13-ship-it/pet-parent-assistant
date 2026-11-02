@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pet Parent Assistant</title>
+  <meta name="description" content="Pet Parent Assistant is an AI-powered app that helps you organize feeding schedules, daily care, and supplies for your pets.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Pet Parent Assistant home">
+      <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true">
+        <ellipse cx="16" cy="21" rx="7" ry="6" fill="currentColor"/>
+        <ellipse cx="6.5" cy="14" rx="3" ry="4" fill="currentColor"/>
+        <ellipse cx="25.5" cy="14" rx="3" ry="4" fill="currentColor"/>
+        <ellipse cx="12" cy="8" rx="3" ry="4.2" fill="currentColor"/>
+        <ellipse cx="20" cy="8" rx="3" ry="4.2" fill="currentColor"/>
+      </svg>
+      Pet Parent Assistant
+    </a>
+    <a class="nav-link" href="#features">Features</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Happy pets start with a little planning.</h1>
+        <p class="lead">Pet Parent Assistant is an AI-powered app that keeps feeding times, daily care, and supplies in one place, so you always know what your pet needs next.</p>
+        <a class="button" href="#get-started">Get Started</a>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="blob"></div>
+
+        <svg class="pet dog" viewBox="0 0 200 200">
+          <ellipse cx="42" cy="86" rx="24" ry="46" fill="#C98F62" transform="rotate(12 42 86)"/>
+          <ellipse cx="158" cy="86" rx="24" ry="46" fill="#C98F62" transform="rotate(-12 158 86)"/>
+          <circle cx="100" cy="100" r="64" fill="#EBC49A"/>
+          <ellipse cx="100" cy="128" rx="30" ry="24" fill="#FFF3E4"/>
+          <circle cx="76" cy="92" r="7" fill="#26324B"/>
+          <circle cx="124" cy="92" r="7" fill="#26324B"/>
+          <circle cx="78" cy="89" r="2.2" fill="#fff"/>
+          <circle cx="126" cy="89" r="2.2" fill="#fff"/>
+          <ellipse cx="100" cy="115" rx="11" ry="8" fill="#26324B"/>
+          <path d="M100 123 v8 M100 131 q-9 9 -17 2 M100 131 q9 9 17 2" stroke="#26324B" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M92 138 q8 18 16 0 z" fill="#FF8FA3"/>
+          <circle cx="62" cy="112" r="9" fill="#FFB8B8" opacity=".6"/>
+          <circle cx="138" cy="112" r="9" fill="#FFB8B8" opacity=".6"/>
+        </svg>
+
+        <svg class="pet cat" viewBox="0 0 200 200">
+          <path d="M34 78 L40 22 L88 52 Z" fill="#B9BFD6"/>
+          <path d="M166 78 L160 22 L112 52 Z" fill="#B9BFD6"/>
+          <path d="M46 62 L48 38 L70 52 Z" fill="#FFC9D4"/>
+          <path d="M154 62 L152 38 L130 52 Z" fill="#FFC9D4"/>
+          <circle cx="100" cy="105" r="66" fill="#D5D9EA"/>
+          <ellipse cx="76" cy="98" rx="8" ry="10" fill="#26324B"/>
+          <ellipse cx="124" cy="98" rx="8" ry="10" fill="#26324B"/>
+          <circle cx="79" cy="94" r="2.5" fill="#fff"/>
+          <circle cx="127" cy="94" r="2.5" fill="#fff"/>
+          <path d="M92 118 h16 l-8 9 z" fill="#FF8FA3"/>
+          <path d="M100 127 q-8 10 -16 3 M100 127 q8 10 16 3" stroke="#26324B" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <path d="M60 118 h-30 M60 126 l-28 8 M140 118 h30 M140 126 l28 8" stroke="#8D94B5" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+
+        <div class="chip chip-feed"><span class="dot mint"></span> Breakfast at 7:30 AM</div>
+        <div class="chip chip-supply"><span class="dot butter"></span> Kibble: 4 days left</div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h2>Everything your pet needs, in one app</h2>
+      <p class="section-intro">Simple tools for the daily routine, plus an assistant for the questions that come up in between.</p>
+
+      <div class="feature-grid">
+        <article class="feature mint">
+          <div class="icon" aria-hidden="true">🍽️</div>
+          <h3>Feeding schedules</h3>
+          <p>Set meal times and portions for each pet and get a gentle reminder when it's time to eat.</p>
+        </article>
+        <article class="feature butter">
+          <div class="icon" aria-hidden="true">🦮</div>
+          <h3>Daily care routines</h3>
+          <p>Plan walks, playtime, grooming, and medication times, then check them off as you go.</p>
+        </article>
+        <article class="feature blush">
+          <div class="icon" aria-hidden="true">🦴</div>
+          <h3>Supply tracking</h3>
+          <p>Keep an eye on food, treats, litter, and more, and see what's running low before it runs out.</p>
+        </article>
+        <article class="feature sky">
+          <div class="icon" aria-hidden="true">💬</div>
+          <h3>Pet-care guidance</h3>
+          <p>Ask the AI assistant general questions about feeding, behavior, and routines and get clear, friendly answers.</p>
+        </article>
+      </div>
+      <p class="note">Pet Parent Assistant gives general guidance only and is not a substitute for a veterinarian.</p>
+    </section>
+
+    <section class="cta" id="get-started">
+      <h2>Ready to make pet care easier?</h2>
+      <p>Start organizing your pet's day in a few minutes.</p>
+      <a class="button" href="#top">Get Started</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Pet Parent Assistant &copy; 2026 &middot; Created by <strong>Hilary Howell</strong></p>
+  </footer>
+
+</body>
+</html>
